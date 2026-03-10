@@ -1,15 +1,15 @@
-# 🚀 LaunchKit
+# 🚀 CybrKit
 
 <p align="center">
   <strong>Ship your SaaS in days, not months.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/M4ST3R-C0NTR0L/launchkit/stargazers">
-    <img src="https://img.shields.io/github/stars/M4ST3R-C0NTR0L/launchkit?style=for-the-badge&color=yellow" alt="Stars" />
+  <a href="https://github.com/M4ST3R-C0NTR0L/cybrkit/stargazers">
+    <img src="https://img.shields.io/github/stars/M4ST3R-C0NTR0L/cybrkit?style=for-the-badge&color=yellow" alt="Stars" />
   </a>
-  <a href="https://github.com/M4ST3R-C0NTR0L/launchkit/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/M4ST3R-C0NTR0L/launchkit?style=for-the-badge&color=blue" alt="License" />
+  <a href="https://github.com/M4ST3R-C0NTR0L/cybrkit/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/M4ST3R-C0NTR0L/cybrkit?style=for-the-badge&color=blue" alt="License" />
   </a>
   <a href="https://nextjs.org">
     <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js" />
@@ -35,7 +35,7 @@
 ## 📸 Screenshot
 
 <p align="center">
-  <img src="./public/screenshot.png" alt="LaunchKit Screenshot" width="100%" />
+  <img src="./public/screenshot.png" alt="CybrKit Screenshot" width="100%" />
 </p>
 
 ---
@@ -92,8 +92,8 @@ Get your SaaS up and running in 4 simple steps:
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/M4ST3R-C0NTR0L/launchkit.git
-cd launchkit
+git clone https://github.com/M4ST3R-C0NTR0L/cybrkit.git
+cd cybrkit
 npm install
 ```
 
@@ -147,7 +147,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see your SaaS! 🎉
 ## 📦 Project Structure
 
 ```
-LaunchKit/
+CybrKit/
 ├── src/
 │   ├── app/                    # Next.js App Router
 │   │   ├── (auth)/            # Auth routes (login/signup)
@@ -173,7 +173,7 @@ LaunchKit/
 
 ### Deploy to Vercel (One-Click)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/M4ST3R-C0NTR0L/launchkit)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/M4ST3R-C0NTR0L/cybrkit)
 
 ### Manual Deployment
 
@@ -259,7 +259,7 @@ const resend = new Resend(process.env.RESEND_API_KEY)
 await resend.emails.send({
   from: process.env.EMAIL_FROM!,
   to: user.email,
-  subject: 'Welcome to LaunchKit!',
+  subject: 'Welcome to CybrKit!',
   html: '<p>Your custom email content</p>',
 })
 ```
