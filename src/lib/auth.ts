@@ -48,10 +48,10 @@ export const authOptions: NextAuthOptions = {
           await resend.emails.send({
             from: process.env.EMAIL_FROM!,
             to: identifier,
-            subject: 'Sign in to LaunchKit',
+            subject: 'Sign in to CybrKit',
             html: `
               <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
-                <h1 style="color: #111;">Sign in to LaunchKit</h1>
+                <h1 style="color: #111;">Sign in to CybrKit</h1>
                 <p>Click the link below to sign in:</p>
                 <a href="${url}" style="display: inline-block; background: #7c3aed; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; margin: 16px 0;">
                   Sign in
@@ -105,10 +105,10 @@ export const authOptions: NextAuthOptions = {
         await resend.emails.send({
           from: process.env.EMAIL_FROM!,
           to: user.email,
-          subject: 'Welcome to LaunchKit!',
+          subject: 'Welcome to CybrKit!',
           html: `
             <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
-              <h1 style="color: #111;">Welcome to LaunchKit!</h1>
+              <h1 style="color: #111;">Welcome to CybrKit!</h1>
               <p>Hi ${user.name || 'there'},</p>
               <p>Thanks for signing up! We're excited to have you on board.</p>
               <p>Get started by exploring your dashboard:</p>

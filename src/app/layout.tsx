@@ -9,12 +9,12 @@ import { AuthProvider } from "@/components/auth-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "LaunchKit - Ship your SaaS in days, not months",
+  title: "CybrKit - Ship your SaaS in days, not months",
   description: "The complete Next.js SaaS starter kit with authentication, payments, and a beautiful dashboard. Launch your product faster.",
   keywords: ["saas", "starter kit", "next.js", "typescript", "stripe", "authentication"],
   authors: [{ name: "Cybrflux" }],
   openGraph: {
-    title: "LaunchKit - Ship your SaaS in days",
+    title: "CybrKit - Ship your SaaS in days",
     description: "The complete Next.js SaaS starter kit with everything you need to launch fast.",
     type: "website",
   },

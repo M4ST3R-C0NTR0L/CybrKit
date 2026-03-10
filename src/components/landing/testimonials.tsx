@@ -48,7 +48,7 @@ function TestimonialCard({ content, author }: TestimonialCardProps) {
 export function Testimonials() {
   const testimonials = [
     {
-      content: "LaunchKit saved us weeks of development time. We went from idea to paying customers in under 2 weeks. The Stripe integration alone was worth it.",
+      content: "CybrKit saved us weeks of development time. We went from idea to paying customers in under 2 weeks. The Stripe integration alone was worth it.",
       author: {
         name: "Sarah Chen",
         role: "Founder",
@@ -66,7 +66,7 @@ export function Testimonials() {
       },
     },
     {
-      content: "We evaluated 5 different SaaS starters and LaunchKit was the clear winner. The authentication flow, dashboard UI, and documentation are top-notch.",
+      content: "We evaluated 5 different SaaS starters and CybrKit was the clear winner. The authentication flow, dashboard UI, and documentation are top-notch.",
       author: {
         name: "Emily Rodriguez",
         role: "Product Manager",
@@ -86,7 +86,7 @@ export function Testimonials() {
             <span className="gradient-text">founders</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-zinc-400">
-            See what other builders are saying about LaunchKit.
+            See what other builders are saying about CybrKit.
           </p>
         </div>
 

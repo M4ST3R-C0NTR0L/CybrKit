@@ -37,7 +37,7 @@ export function Hero() {
         
         {/* Subtext */}
         <p className="mx-auto mb-10 max-w-2xl text-lg text-zinc-400 sm:text-xl">
-          LaunchKit gives you everything you need to launch a production-ready SaaS product. 
+          CybrKit gives you everything you need to launch a production-ready SaaS product. 
           Authentication, payments, database, and a beautiful UI — all pre-configured.
         </p>
         

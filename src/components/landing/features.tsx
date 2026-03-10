@@ -34,7 +34,7 @@ function FeatureCard({ icon, title, description }: FeatureCardProps) {
 }
 
 /**
- * Features section showcasing the key capabilities of LaunchKit
+ * Features section showcasing the key capabilities of CybrKit
  */
 export function Features() {
   const features = [
@@ -80,7 +80,7 @@ export function Features() {
             <span className="gradient-text">launch fast</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-zinc-400">
-            Stop wasting time on boilerplate. LaunchKit includes all the essential 
+            Stop wasting time on boilerplate. CybrKit includes all the essential 
             features you need to build and ship your SaaS product.
           </p>
         </div>

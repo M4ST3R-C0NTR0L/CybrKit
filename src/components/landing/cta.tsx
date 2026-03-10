@@ -36,7 +36,7 @@ export function CTA() {
             Ready to ship your SaaS?
           </h2>
           <p className="mb-8 text-lg text-zinc-400">
-            Join hundreds of founders who have launched faster with LaunchKit. 
+            Join hundreds of founders who have launched faster with CybrKit. 
             Get started free — no credit card required.
           </p>
 

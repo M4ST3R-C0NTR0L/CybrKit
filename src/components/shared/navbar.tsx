@@ -31,7 +31,7 @@ export function Navbar() {
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-violet-600 to-blue-600 text-white font-bold">
             L
           </div>
-          <span className="text-lg font-bold text-white">LaunchKit</span>
+          <span className="text-lg font-bold text-white">CybrKit</span>
         </Link>
 
         {/* Navigation */}

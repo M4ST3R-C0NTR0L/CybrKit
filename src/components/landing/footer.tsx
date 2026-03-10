@@ -43,14 +43,14 @@ export function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-violet-600 to-blue-600 text-white font-bold">
                 L
               </div>
-              <span className="text-lg font-bold text-white">LaunchKit</span>
+              <span className="text-lg font-bold text-white">CybrKit</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-zinc-400">
               The complete SaaS starter kit for modern founders. Ship faster, scale smarter.
             </p>
             <div className="mt-6 flex gap-4">
               <a 
-                href="https://github.com/M4ST3R-C0NTR0L/launchkit" 
+                href="https://github.com/M4ST3R-C0NTR0L/cybrkit" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-zinc-400 hover:text-white transition-colors"
@@ -89,7 +89,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-zinc-800 pt-8 sm:flex-row">
           <p className="text-sm text-zinc-500">
-            © {new Date().getFullYear()} LaunchKit. All rights reserved.
+            © {new Date().getFullYear()} CybrKit. All rights reserved.
           </p>
           <p className="text-sm text-zinc-500">
             Built by{" "}

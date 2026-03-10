@@ -29,7 +29,7 @@ export default function SignupPage() {
           <CardHeader className="space-y-1 text-center">
             <CardTitle className="text-2xl font-bold text-white">Create an account</CardTitle>
             <CardDescription className="text-zinc-400">
-              Get started with LaunchKit for free
+              Get started with CybrKit for free
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">

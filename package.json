@@ -1,7 +1,7 @@
 {
-  "name": "launchkit",
+  "name": "cybrkit",
   "version": "1.0.0",
-  "description": "Production-ready Next.js SaaS starter template",
+  "description": "Ship your SaaS in days, not months. Production-ready Next.js SaaS starter kit.",
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -62,10 +62,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/M4ST3R-C0NTR0L/launchkit.git"
+    "url": "git+https://github.com/M4ST3R-C0NTR0L/CybrKit.git"
   },
   "bugs": {
-    "url": "https://github.com/M4ST3R-C0NTR0L/launchkit/issues"
+    "url": "https://github.com/M4ST3R-C0NTR0L/CybrKit/issues"
   },
-  "homepage": "https://github.com/M4ST3R-C0NTR0L/launchkit#readme"
+  "homepage": "https://github.com/M4ST3R-C0NTR0L/CybrKit#readme"
 }
